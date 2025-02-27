@@ -4,7 +4,7 @@
       "src": "main.py",
       "use": "@vercel/python",
       "config": {
-        "installCommand": "pip install -r requirements_vercel.txt"
+        "installCommand": "pip install --no-cache-dir -r requirements_vercel.txt"
       }
     }
   ],
