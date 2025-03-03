@@ -6,5 +6,6 @@ pydantic_core==2.14.6
 uvicorn==0.25.0
 python-dotenv~=1.0.1
 # Conditional PostgreSQL drivers
-psycopg2-binary==2.9.10; platform_system == "Linux"  # For Vercel (Linux-based)
-psycopg2==2.9.10; platform_system != "Linux"  # For local development (Windows/macOS)
+# psycopg2-binary==2.9.10; platform_system == "Linux"  # For Vercel (Linux-based)
+# psycopg2==2.9.10; platform_system != "Linux"  # For local development (Windows/macOS)
+psycopg>=3.0.0
